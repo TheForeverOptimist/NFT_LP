@@ -1,6 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 header {
     background-color: purple;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     padding: 1em;
     margin: 1em;
 }
@@ -8,9 +15,38 @@ header {
 header h1{
     font-size: 3em;
     margin: 0;
+    font-weight: 500;
 }
 
 header h3{
     font-size: 1em;
     margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.topHalf{
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+
+.nftButton {
+    background-color: darkorchid;
+    border: 2px;
+    border-radius: 5%;
+    padding: 0.4em;
+
+
+
+}
+
+.infoButton {
+    background-color: plum;
+    border: 2px;
+    border-radius: 5%;
+    padding: 0.4em;
+}
+
+.bottomHalf {
+    background-color: purple;
 }
