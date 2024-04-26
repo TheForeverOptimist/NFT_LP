@@ -64,16 +64,16 @@ h3{
 
 }
 
-.nftLink {
+a {
     color: #ef5839;
     text-decoration-style:dotted;
 }
 
-.nftLink:hover{
+a:hover{
     color: #d4b44c
 }
 
-.nftLink:active{
+a:active{
     color: #d4b44c
 }
 /* 
