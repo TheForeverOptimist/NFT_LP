@@ -39,11 +39,29 @@ h3{
     margin: 0;
 }
 
-/* .topHalf{
-    background-color: white;
-    padding: 1em;
-    margin: 1em;
+.topHalf{
+    padding: 45px 0px;
+    margin: 0;
+    
 }
+
+.topHalf h2{
+    margin-top: 0;
+}
+
+
+.kicks{
+    width: 100%;
+    margin: 0;
+}
+
+
+.topHalf p {
+    margin: 0
+
+}
+
+/* 
 
 .nftButton {
     background-color: darkorchid;
