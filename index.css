@@ -1,27 +1,40 @@
+
+/* .roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+} */
+
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
 header {
-    background-color: purple;
-    
-    padding: 1em;
-    margin: 1em;
+    background-color: #5f29a3;
 }
 
 header h1{
     font-size: 3em;
-    margin: 0;
     font-weight: 500;
+    margin-bottom: 0;
+    color: whitesmoke;
 }
 
 header h3{
     font-size: 1em;
-    margin-bottom: 10px;
     font-weight: 400;
+    color: #d0aaff;
 }
 
 .topHalf{
@@ -35,18 +48,57 @@ header h3{
     border: 2px;
     border-radius: 5%;
     padding: 0.4em;
-
-
-
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
 }
+
+.nftButton:hover{
+    background-color: white;
+    color: purple;
+    border: 2px;
+}
+
 
 .infoButton {
     background-color: plum;
     border: 2px;
     border-radius: 5%;
     padding: 0.4em;
+    text-decoration: none;
+    color: purple;
+    font-weight: 400;
+}
+
+.infoButton:hover{
+    background-color: purple;
+    color: white;
+    border: 2px;
 }
 
 .bottomHalf {
     background-color: purple;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+}
+
+.about {
+    background-color:antiquewhite;
+    color: orchid;
+    text-decoration: none;
+    font-weight: 400;
+    border: 2px;
+    border-radius: 5%;
+    padding: 0.4em;
+}
+
+.contact{
+    background-color: plum;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    border: 2px;
+    border-radius: 5%;
+    padding: 0.4em;
 }
